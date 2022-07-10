@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BlueSphere : Sphere
 {
+    //inheritence
     public override void SpehereColor()
     {
         newColor = Color.blue;

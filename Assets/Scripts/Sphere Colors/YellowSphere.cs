@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class YellowSphere : Sphere
 {
+    //inheritence
     public override void SpehereColor()
     {
         newColor = Color.yellow;
