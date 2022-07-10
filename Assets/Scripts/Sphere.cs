@@ -3,9 +3,9 @@ using UnityEngine.UI;
 
 public class Sphere : MonoBehaviour
 {
-    public Color newColor;
-    public Text text;
-    public string textString;
+    protected Color newColor;
+    [SerializeField] private Text text;
+    [SerializeField] private string textString;
 
     private void Start()
     {
@@ -13,16 +13,12 @@ public class Sphere : MonoBehaviour
     }
     public virtual void SpehereColor()
     {
-        if (transform.childCount == 3)
-        {
-
-        }
+        if (transform.childCount == 3){}
         else
         {
             gameObject.GetComponent<Renderer>().material.SetColor("_Color", newColor);
         }
     }
-
     private void OnMouseDown()
     {
         text.color = newColor;

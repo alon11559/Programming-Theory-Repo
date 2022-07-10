@@ -169,8 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcdf8c9990087f544942b5f6867cb2a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 0, g: 0, b: 0, a: 0}
-  text: {fileID: 193419860}
+  text: {fileID: 0}
   textString: 
 --- !u!1 &193419858
 GameObject:
@@ -552,7 +551,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076a91c96d487904cb974d228361635e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 0, g: 0, b: 0, a: 0}
   text: {fileID: 193419860}
   textString: You clicked blue!
 --- !u!1 &1247351197
@@ -663,7 +661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f0b1929c2c7d8f42862cb6bc29a4664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 0, g: 0, b: 0, a: 0}
   text: {fileID: 193419860}
   textString: You clicked yellow!
 --- !u!1 &1429455170
@@ -774,7 +771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87075be9b891f7349ae628456b9474a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 0, g: 0, b: 0, a: 0}
   text: {fileID: 193419860}
   textString: You clicked red!
 --- !u!1 &1536111900
